@@ -1,0 +1,254 @@
+html{
+	background: #fff url(../images/CofC_l.jpg) center top no-repeat;
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+}
+html,body{
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.field{
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+}
+
+select.field{
+    width: 100%;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #FFE4B5;
+    text-shadow: -1px 0 #121116, 0 1px #121116, 1px 0 #121116, 0 -1px #121116;
+}
+
+.invalid::-webkit-input-placeholder {
+	color: red;
+}
+
+.invalid:-moz-placeholder {
+	color: red;
+}
+
+.invalid::-moz-placeholder {
+	color: red;
+}
+
+.invalid:-ms-input-placeholder {
+	color: red;
+}
+
+.invalid {
+	color: red;
+}
+
+#wrapper{
+	max-width: 100%;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main{
+	max-width: 100%;
+	width: 940px;
+	float: left;
+}
+
+.header, .content, .bottom, .sep2{
+	width: 100%;
+	float: left;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+
+h1 strong{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+h2 strong{
+	font-weight: 700;
+	font-style: italic;
+}
+
+.information{
+	width: 480px;
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.information p{
+	font-size: 16px;
+	display: block;
+}
+
+.form{
+	float: left;
+	width: 478px;
+	margin-top: 20px;
+}
+
+.field{
+	background: url(../images/field.png) repeat;
+	width: 448px;
+	-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
+	border: none;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	float: left;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+@media screen and (orientation:landscape) {
+	.header{
+		margin-top:0;
+		margin-bottom:0;
+	}
+	h1, h2{
+		margin:0;
+	}
+	.form{
+		margin: 10px 0 0 0;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	html{
+		background: #fff url(../images/CofC_p.jpg) center top no-repeat;
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+	}
+
+	.header{
+		margin-top:40px;
+	}
+
+	.field{
+		width: 100%;
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+
+	}
+
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+	}
+
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+	   opacity:  1;
+	}
+
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+	   opacity:  1;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: black;
+	    text-shadow: -1px 0 #E3E4D6, 0 1px #E3E4D6, 1px 0 #E3E4D6, 0 -1px #E3E4D6;
+	}
+}
+
+@media only screen and (max-device-width: 420px)  {
+	.information{
+		width: 100%;
+	}
+
+	.form{
+		width: 100%;
+	}
+
+	.field {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media all and (min-device-height: 750px)  {
+	.header{
+		margin-top: 160px;
+		margin-bottom: 40px;
+	}
+}
+
+.submit{
+	padding: 3px 10px;
+	-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
+	margin-left: -78px;
+	margin-top: 12px;
+	background: #ffffff;
+	border: none;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background: #eeeeee;
+}
+
+.error {
+  color: #FE7070;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+a {
+  color: #92BCF2;
+  font-weight: 700;
+}
+
+a:visited,
+a:hover {
+  color: #7EB6FF;
+}
+
+html,body{
+	background-size: cover;
+}

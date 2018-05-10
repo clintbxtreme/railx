@@ -1,0 +1,7 @@
+community_name = ;community to display
+coc_token = ;clash of clans api token
+slack_url = ;slack incoming webhook url for notifications
+token = ;token to protect form
+slack_host_name = ;slack hostname
+slack_auth_token = ;slack auth token
+clan_tag = ;clash of clans tag
